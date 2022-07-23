@@ -1,0 +1,34 @@
+.main {
+    min-height: 100vh;
+    min-width: 100vw;
+
+    max-height: 100vh;
+    max-width: 100vw;
+    background-color: rgb(172, 154, 154);
+
+    .main-row {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .main-left {
+        min-height: 100vh;
+        max-height: 100vh;
+        min-width: 400px;
+        background-color: #746161;
+    }
+
+    .main-center {
+        min-height: 98vh;
+        background-color: #282828;
+        width: 100%;
+    }
+
+    .main-right {
+        min-height: 100vh;
+        max-height: 100vh;
+        min-width: 400px;
+        background-color: #746161;
+    }
+}
